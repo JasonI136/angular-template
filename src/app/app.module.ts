@@ -9,10 +9,12 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { RouterModule } from '@angular/router';
 import { AdminModule } from './admin/admin.module';
+import { NavbarTopComponent } from 'src/components/navbar-top/navbar-top.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarTopComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,7 @@ import { AdminModule } from './admin/admin.module';
     BrowserAnimationsModule,
     MatSliderModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

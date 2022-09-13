@@ -9,7 +9,7 @@ export class NavbarTopComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
 }
