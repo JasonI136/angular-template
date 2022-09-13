@@ -10,6 +10,7 @@ import {MatCardModule} from '@angular/material/card';
 import { RouterModule } from '@angular/router';
 import { AdminModule } from './admin/admin.module';
 import { NavbarTopComponent } from 'src/components/navbar-top/navbar-top.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { NavbarTopComponent } from 'src/components/navbar-top/navbar-top.compone
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     AdminModule,
     RouterModule,
